@@ -83,10 +83,10 @@ class PageContainer extends Component {
       
       <div className={this.props.match.params.path} id={this.props.match.params.path}>
         {rows.map(row => (
-          <div className="content-row" key={"r"+row.id}>
+          <div className="columns" id={"r"+row.id} key={"r"+row.id}>
           {row.columns.map(column=>{
             return (
-              <div className={"content-column width"+ Math.floor((1/row.columns.length)*100)} key={"r"+row.id+ "c"+column.id}>
+              <div className={"column"} key={"r"+row.id+ "c"+column.id}>
               {column.content.map((content,index)=>{
                 return (
                   <div className="content-con" key={"r"+row.id+ "c"+column.id+"con"+index}> 

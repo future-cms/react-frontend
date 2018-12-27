@@ -25,7 +25,7 @@
                                 }]
                             }, {
                                 "component": "div",
-                                "className": "textWrapper animated fadeInUp",
+                                "className": "textWrapper",
                                 "children": [{
                                     "component": "h2",
                                     "className": "slide-h2",
@@ -316,7 +316,7 @@
         }]
     }],
     "meta": {
-        "title": "Home Page",
+        "title": "About Page",
         "description": "Our awesome description",
         "contentType": null,
         "twitter": "mytweet",

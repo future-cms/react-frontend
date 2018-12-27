@@ -43,3 +43,20 @@
   float: left;
   width: 33%;
 }
+div#homepage div#r0, div#homepage div#r0>.column {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding:0;
+}
+h2.slide-h2 {
+
+}
+a.slide-a {
+  background-color: #209cee;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom:20px;
+}

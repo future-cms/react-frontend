@@ -18,6 +18,7 @@
   .Slider-swiper__slide > .Slider-div{
       position: relative;
       color:#fff;
+      height: 100%;
   }
   .Slider-swiper__slide > .Slider-div > .imageWrapper{
       width: 100%;
@@ -28,6 +29,8 @@
   .Slider-swiper__slide > .Slider-div > .imageWrapper img{
     max-width: 100%;
     z-index: 2;
+    height: 100%;
+    object-fit: cover;
 }
   .Slider-swiper__slide > .Slider-div > .textWrapper{
     padding-top: 100px;
